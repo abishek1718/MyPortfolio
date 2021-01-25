@@ -1,13 +1,9 @@
 import React from "react";
-import "./index.css";
 import Main from "./Main";
+import "./index.css";
 
 const App = () => {
-  return (
-    <>
-      <Main />
-    </>
-  );
+  return <Main />;
 };
 
 export default App;

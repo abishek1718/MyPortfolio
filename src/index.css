@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: "Encode Sans", sans-serif;
+  font-family: "Encode Sans Expanded", sans-serif;
+  background: #0a192f;
 }
 
 #root {

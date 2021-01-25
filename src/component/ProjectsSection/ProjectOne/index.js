@@ -1,4 +1,7 @@
 import React from "react";
+import { GithubOutline } from "@styled-icons/evaicons-outline/GithubOutline";
+import { ExternalLink } from "@styled-icons/evaicons-solid/ExternalLink";
+
 import {
   ProjectContainer,
   ProjectImage,
@@ -9,6 +12,8 @@ import {
   ProjectDesc,
   Section,
   Img,
+  Icons,
+  Title,
 } from "./ProjectOneElements";
 
 import img1 from "../../../images/test2.png";
@@ -17,6 +22,7 @@ const ProjectSectionOne = () => {
   return (
     <>
       <Section>
+        <Title>Projects</Title>
         <ProjectContainer>
           <ProjectImage>
             <Img src={img1} alt="img1"></Img>
@@ -24,10 +30,20 @@ const ProjectSectionOne = () => {
           <ProjectLine>Featured Project</ProjectLine>
           <ProjectTitle>Fair Lanka</ProjectTitle>
           <ProjectLinks>
-            <ul>
-              <li>twitter</li>
-              <li>facebook</li>
-            </ul>
+            <Icons
+              href="//github.com/abishek1718/Fair-Lanka-Redesign"
+              target="_blank"
+              aria-label="github"
+            >
+              <GithubOutline />
+            </Icons>
+            <Icons
+              href="//fairlanka.info"
+              target="_blank"
+              aria-label="fairlanka"
+            >
+              <ExternalLink />
+            </Icons>
           </ProjectLinks>
           <ProjectTools>
             <ul>

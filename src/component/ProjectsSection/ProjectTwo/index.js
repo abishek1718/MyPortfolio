@@ -1,4 +1,7 @@
 import React from "react";
+import { GithubOutline } from "@styled-icons/evaicons-outline/GithubOutline";
+import { ExternalLink } from "@styled-icons/evaicons-solid/ExternalLink";
+
 import {
   ProjectContainer,
   ProjectImage,
@@ -9,9 +12,10 @@ import {
   ProjectDesc,
   Section,
   Img,
+  Icons,
 } from "./ProjectTwoElements";
 
-import img1 from "../../../images/test2.png";
+import img1 from "../../../images/movie-app.png";
 
 const ProjectSectionTwo = () => {
   return (
@@ -22,23 +26,34 @@ const ProjectSectionTwo = () => {
             <Img src={img1} alt="img1"></Img>
           </ProjectImage>
           <ProjectLine>Featured Project</ProjectLine>
-          <ProjectTitle>Company Homepage</ProjectTitle>
+          <ProjectTitle>Movie App - Database</ProjectTitle>
           <ProjectLinks>
-            <ul>
-              <li>twitter</li>
-              <li>facebook</li>
-            </ul>
+            <Icons
+              href="//github.com/abishek1718/Fair-Lanka-Redesign"
+              target="_blank"
+              aria-label="github"
+            >
+              <GithubOutline />
+            </Icons>
+            <Icons
+              href="//fairlanka.info"
+              target="_blank"
+              aria-label="fairlanka"
+            >
+              <ExternalLink />
+            </Icons>
           </ProjectLinks>
           <ProjectTools>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
-              <li>React.js</li>
+              <li>JavaScript</li>
+              <li>IMDb API</li>
             </ul>
           </ProjectTools>
           <ProjectDesc>
-            A brief showcase of all the products sell on store, You can check
-            out services, Time of operation & Wholesale & Retail Market
+            An app for Movie Database, Displaying Recent Movies, Movie Overview
+            & Rating, Search for any of your favorite movies.
           </ProjectDesc>
         </ProjectContainer>
       </Section>
