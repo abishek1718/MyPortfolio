@@ -36,7 +36,7 @@ const ProjectSectionTwo = () => {
               <GithubOutline />
             </Icons>
             <Icons
-              href="//fairlanka.info"
+              href="//zen-einstein-67ea59.netlify.app"
               target="_blank"
               aria-label="fairlanka"
             >
