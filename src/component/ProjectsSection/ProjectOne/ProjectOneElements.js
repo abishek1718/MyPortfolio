@@ -9,7 +9,8 @@ export const Title = styled.h1`
   color: #fff;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
+  padding-top: 80px;
 `;
 
 export const ProjectContainer = styled.div`
@@ -23,7 +24,6 @@ export const ProjectContainer = styled.div`
   grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(2, 0.3fr) 2fr 0.3fr 0.3fr;
   gap: 10px;
-  border-top: 2px solid #777777;
 
   @media screen and (max-width: 600px) {
     grid-template-columns: repeat(12, 1fr);

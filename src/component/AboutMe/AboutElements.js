@@ -1,29 +1,12 @@
 import styled from "styled-components";
 
-// .grid-container {
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-template-rows: repeat(3, 1fr);
-//     gap: 0px 0px;
-//     grid-template-areas:
-//       "AreaTitle AreaTitle"
-//       "AreaP AreaP"
-//       "Skills Skills";
-//   }
-
-//   .AreaTitle { grid-area: AreaTitle; }
-
-//   .AreaP { grid-area: AreaP; }
-
-//   .Skills { grid-area: Skills; }
-
 export const AboutSection = styled.section`
   height: 100vh;
 `;
 
 export const AboutContainer = styled.div`
   max-width: 800px;
-  height: 500px;
+  height: 600px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -33,9 +16,10 @@ export const AboutContainer = styled.div`
   position: relative;
   top: 25%;
   color: #fff;
-  border-top: 2px solid #777777;
-  border-bottom: 2px solid #777777;
-  padding: 10px;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  padding: 8px;
+
 `;
 
 export const AboutTitle = styled.h1`
@@ -44,6 +28,7 @@ export const AboutTitle = styled.h1`
   display: flex;
   align-items: center;
   letter-spacing: 2px;
+  color: #ccd6f6;
 `;
 
 export const AboutP = styled.p`
@@ -55,16 +40,19 @@ export const AboutP = styled.p`
   letter-spacing: 1px;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #cecece;
+  color: #bdc3d6;
 `;
 
-export const AboutSkillsTitle = styled.h3``;
+export const AboutSkillsTitle = styled.h3`
+  color: #ccd6f6;
+  width:280px;
+`;
 
 export const AboutSkills = styled.ul`
   grid-area: 4 / 1 / 4 / 3;
   font-size: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   letter-spacing: 1px;
   padding: 20px;
 

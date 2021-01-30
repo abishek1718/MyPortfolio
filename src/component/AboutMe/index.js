@@ -14,13 +14,14 @@ const About = () => {
       <AboutContainer>
         <AboutTitle>About Me</AboutTitle>
         <AboutP>
-          Hello! I'm Abishek. Nice to meet you.<br></br>A Web Developer based in
-          Columbus, OH. I enjoy sitting in front of my laptop for long hours,
-          That's how I became a Web Developer. My goal is to build things that
-          make sense,
+          Hello! I'm Abishek. Nice to meet you.<br></br> A Web Developer based
+          in Columbus, OH. I'll be graduating from Franklin University with a
+          Bachelors in Web Development this may. My goal is to show my Web
+          Development skills in a respective company & build things that make
+          sense and provide meaningful solutions.
           <br></br>
         </AboutP>
-        <AboutSkillsTitle> Languages I Speak:</AboutSkillsTitle>
+        <AboutSkillsTitle> Languages, Libraries & Tools</AboutSkillsTitle>
         <AboutSkills>
           <ul>
             <li>HTML</li>
@@ -28,9 +29,14 @@ const About = () => {
             <li>JavaScript</li>
           </ul>
           <ul>
-            <li>WordPress</li>
-            <li>Node.js</li>
-            <li>Figma</li>
+            <li>React JS</li>
+            <li>Node JS</li>
+            <li>Bootstrap</li>
+          </ul>
+          <ul>
+            <li>Git & Github</li>
+            <li>Command line</li>
+            <li>InDesign</li>
           </ul>
         </AboutSkills>
       </AboutContainer>

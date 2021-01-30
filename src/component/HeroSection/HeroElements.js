@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   display: flex;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
 
   @media screen and (max-width: 1024px) {
@@ -14,25 +14,15 @@ export const HeroContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 650px;
+    height: 500px;
+  }
+
+  @media screen and (max-width: 376px) {
+    height: 600px;
   }
 
   @media screen and (max-width: 360px) {
-    height: 820px;
-  }
-`;
-
-export const HeroImg = styled.div`
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-`;
-
-export const Img = styled.img`
-  width: 100%;
-  height: 100%;
-  @media screen and (max-width: 480px) {
-    display: none;
+    height: 450px;
   }
 `;
 
@@ -42,7 +32,6 @@ export const HeroWrapper = styled.div`
   width: 100%;
   margin: 50px;
   border-radius: 25px;
-  align-items: center;
 
   @media screen and (max-width: 768px) {
     display: block;
@@ -58,7 +47,8 @@ export const HeroWrapper = styled.div`
 export const HeroText = styled.div`
   position: absolute;
   max-width: 550px;
-  top: 16%;
+  padding: 10px;
+  top: 18%;
   left: 25%;
 
   @media screen and (max-width: 1024px) {
@@ -70,21 +60,21 @@ export const HeroText = styled.div`
     display: block;
     top: 10%;
     left: 15%;
-    text-align: center;
+    text-align: left;
   }
 
   @media screen and (max-width: 768px) {
     display: block;
     top: 10%;
     left: 15%;
-    text-align: center;
+    text-align: left;
   }
 
   @media screen and (max-width: 542px) {
     display: block;
     top: 10%;
     left: 15%;
-    text-align: center;
+    text-align: left;
   }
 
   @media screen and (max-width: 480px) {
@@ -93,32 +83,45 @@ export const HeroText = styled.div`
     left: 0;
     padding: 30px;
   }
+
+  @media screen and (max-width: 376px) {
+    display: block;
+    top: 20%;
+    left: 0;
+    padding: 30px;
+  }
 `;
 
 export const HeroH1 = styled.h1`
-  text-transform: capitalize;
   letter-spacing: 2px;
-  font-size: 3rem;
+  font-size: 80px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #fff;
+  color: #ccd6f6;
 
   @media screen and (max-width: 768px) {
     font-size: 2.5rem;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 `;
 
+export const HeroH4 = styled.h4`
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #00ffff;
+`;
+
 export const HeroH3 = styled.h3`
-  text-transform: capitalize;
   letter-spacing: 2px;
   line-height: 1.5;
   margin-bottom: 60px;
-  font-size: 1.5rem;
-  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: #bdc3d6;
 `;
 
 export const HeroP = styled.p`
@@ -130,48 +133,45 @@ export const HeroP = styled.p`
   color: #fff;
 `;
 
-export const ImgWrap = styled.div`
-  width: 100%;
-  height: 100%;
+
+export const Files = styled.div`
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 `;
 
-export const Button = styled.a`
-  background: transparent;
-  border: 2px solid #fff;
-  outline: none;
-  border-radius: 10px;
-  font-size: 1.5rem;
-  transition: 0.3s;
-  color: #fff;
-  width: 300px;
-  height: 50px;
-  display: flex;
-  margin-bottom: 20px;
-  justify-content: space-evenly;
-  align-items: center;
+export const File = styled.a`
   text-decoration: none;
-
+  color: #00ffff;
+  border: 1.5px solid #fff;
+  padding: 15px;
+  border-radius: 7px;
+  transition: 0.2s;
   &:hover {
-    background: #1d3c72;
-    color: #fff;
-    transition: 0.3s all ease-in-out;
+    border: none;
   }
 
-  @media screen and (max-width: 968px) {
-    margin: 0 auto;
-    width: 200px;
-    height: 50px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  @media screen and (max-width: 600px) {
-    margin: 0 auto;
-    margin-bottom: 20px;
+  @media screen and (max-width: 396px) {
+    padding: 8px;
   }
 `;
 
-export const DownloadLinks = styled.div`
+export const SocialLinkWrapper = styled.div`
+  right: 100px;
+  top: 30%;
+  height: 300px;
   display: flex;
+  flex-direction: column;
+  position: fixed;
   justify-content: space-evenly;
-  display: block;
+
+  @media screen and (max-width: 396px) {
+    display: none;
+  }
+`;
+
+export const SocialLinks = styled.a`
+  z-index: 1;
+  color: #fff;
 `;

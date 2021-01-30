@@ -1,51 +1,78 @@
 import React from "react";
-import { Download } from "@styled-icons/boxicons-regular/Download";
-import { EmailOutline } from "@styled-icons/evaicons-outline/EmailOutline";
-import img1 from "../../images/bg-2.jpg";
+import myPDF from "../../assets/Resume.pdf";
+import { GithubOutline } from "@styled-icons/evaicons-outline/GithubOutline";
+import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin";
+import { Email } from "@styled-icons/entypo/Email";
+import { DocumentDownload } from "@styled-icons/heroicons-outline/DocumentDownload";
 
 import {
   HeroContainer,
   HeroWrapper,
   HeroH1,
   HeroH3,
-  HeroP,
+  HeroH4,
   HeroText,
-  Button,
-  DownloadLinks,
-  HeroImg,
-  Img
+  Files,
+  File,
+  SocialLinkWrapper,
+  SocialLinks,
 } from "./HeroElements";
 
 const HeroSection = () => {
   return (
     <HeroContainer>
-      <HeroImg>
-        <Img src={img1} alt="img1"></Img>
-      </HeroImg>
       <HeroWrapper>
         <HeroText>
-          <HeroH1>Hi, my name is Abishek Kanageswaran (Abi)</HeroH1>
-          <HeroP>a front end developer & UI Designer in Ohio. </HeroP>
+          <HeroH4>Hi, my name is</HeroH4>
+          <HeroH1>Abishek Kanageswaran.</HeroH1>
           <HeroH3>
-            I specialize in front end development, responsive web design, and
-            visual development
+            I specialize in front-end development, responsive web design, and
+            visual development.
           </HeroH3>
-          <DownloadLinks>
-            <Button>
+          <Files>
+            <File href={myPDF} target="_blank" rel="noreferrer">
               Download Resume
-              <Download size="35" title="download" />
-            </Button>
-            <Button
+            </File>
+            <File
               href="//mailto:abishekkanageswaran70@gmail.com"
               target="_blank"
               aria-label="gmail"
+              rel="noreferrer"
             >
-              Get In touch
-              <EmailOutline size="35" title="Email" />
-            </Button>
-          </DownloadLinks>
+              Get in touch
+            </File>
+          </Files>
         </HeroText>
       </HeroWrapper>
+      <SocialLinkWrapper>
+        <SocialLinks
+          href="//www.linkedin.com/in/abishek1718/"
+          target="_blank"
+          aria-label="github"
+          rel="noreferrer"
+        >
+          <Linkedin size="25" />
+        </SocialLinks>
+        <SocialLinks
+          href="//github.com/abishek1718"
+          target="_blank"
+          aria-label="github"
+          rel="noreferrer"
+        >
+          <GithubOutline size="25" />
+        </SocialLinks>
+        <SocialLinks
+          href="//mailto:abishekkanageswaran70@gmail.com"
+          target="_blank"
+          aria-label="gmail"
+          rel="noreferrer"
+        >
+          <Email size="25" />
+        </SocialLinks>
+        <SocialLinks href={myPDF} target="_blank" rel="noreferrer">
+          <DocumentDownload size="27" />
+        </SocialLinks>
+      </SocialLinkWrapper>
     </HeroContainer>
   );
 };
