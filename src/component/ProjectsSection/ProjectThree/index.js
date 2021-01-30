@@ -13,32 +13,30 @@ import {
   Section,
   Img,
   Icons,
-  Title,
-} from "./ProjectOneElements";
+} from "./ProjectThreeElements";
 
-import img1 from "../../../images/test2.png";
+import img1 from "../../../images/crypto-app.png";
 
-const ProjectSectionOne = () => {
+const ProjectSectionThree = () => {
   return (
     <>
       <Section>
-        <Title>Projects</Title>
         <ProjectContainer>
           <ProjectImage>
             <Img src={img1} alt="img1"></Img>
           </ProjectImage>
           <ProjectLine>Featured Project</ProjectLine>
-          <ProjectTitle>Fair Lanka</ProjectTitle>
+          <ProjectTitle>Crypto Currency Tracker</ProjectTitle>
           <ProjectLinks>
             <Icons
-              href="//github.com/abishek1718/Fair-Lanka-Redesign"
+              href="//github.com/abishek1718/cryptocurrency-tracker-app"
               target="_blank"
               aria-label="github"
             >
               <GithubOutline />
             </Icons>
             <Icons
-              href="//fairlanka.info"
+              href="//sharp-brahmagupta-06bebd.netlify.app/"
               target="_blank"
               aria-label="fairlanka"
             >
@@ -50,6 +48,7 @@ const ProjectSectionOne = () => {
               <li>HTML</li>
               <li>CSS</li>
               <li>React JS</li>
+              <li>Coingecko Api</li>
             </ul>
           </ProjectTools>
           <ProjectDesc>
@@ -62,4 +61,4 @@ const ProjectSectionOne = () => {
   );
 };
 
-export default ProjectSectionOne;
+export default ProjectSectionThree;

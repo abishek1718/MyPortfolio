@@ -70,7 +70,6 @@ export const Img = styled.img`
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  cursor: pointer;
 
   @media screen and (max-width: 950px) {
     width: 100%;
@@ -89,7 +88,6 @@ export const ProjectLine = styled.div`
 
   @media screen and (max-width: 600px) {
     grid-area: 1 / 1 / 2 / 13;
-    color: #fff;
     justify-content: center;
     padding-right: 0px;
   }
