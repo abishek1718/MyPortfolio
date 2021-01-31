@@ -52,8 +52,7 @@ const ProjectSectionThree = () => {
             </ul>
           </ProjectTools>
           <ProjectDesc>
-            A brief showcase of all the products sell on store, You can check
-            out services, Time of operation & Wholesale & Retail Market
+          The easiest way to discover and track Bitcoin & cryptocurrency value with a simple user interface. 
           </ProjectDesc>
         </ProjectContainer>
       </Section>
