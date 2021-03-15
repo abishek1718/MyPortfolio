@@ -18,3 +18,35 @@ body {
 #root {
   display: grid;
 }
+/*footer on mobiles css*/
+@media(max-width:767.8px){
+	.footer-btm{
+		right: unset!important;
+		top: unset!important;
+		height: 0px!important;
+		bottom: 5%!important;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		position: absolute!important;
+		z-index: 9999;
+		display: block!important;
+	}
+	.footer-btm a{
+		margin:0px 15px;
+	}
+	.footer-btm a:first-child{
+		margin-left: 0px!important;
+	}
+	.footer-btm a:last-child{
+		margin-right: 0px!important;
+	}
+	#root {
+	  position: relative;
+	}
+}
+@media(max-width:440px){
+	.footer-btm a{
+		margin:0px 12px;
+	}
+}
+

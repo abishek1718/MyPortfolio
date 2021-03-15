@@ -17,7 +17,6 @@ import {
   SocialLinkWrapper,
   SocialLinks,
 } from "./HeroElements";
-
 const HeroSection = () => {
   return (
     <HeroContainer>
@@ -34,7 +33,7 @@ const HeroSection = () => {
               Download Resume
             </File>
             <File
-              href="//mailto:abishekkanageswaran70@gmail.com"
+              href="mailto:abishekkanageswaran70@gmail.com"
               target="_blank"
               aria-label="gmail"
               rel="noreferrer"
@@ -44,7 +43,7 @@ const HeroSection = () => {
           </Files>
         </HeroText>
       </HeroWrapper>
-      <SocialLinkWrapper>
+      <SocialLinkWrapper className="footer-btm">
         <SocialLinks
           href="//www.linkedin.com/in/abishek1718/"
           target="_blank"
@@ -62,7 +61,7 @@ const HeroSection = () => {
           <GithubOutline size="25" />
         </SocialLinks>
         <SocialLinks
-          href="//mailto:abishekkanageswaran70@gmail.com"
+          href="mailto:abishekkanageswaran70@gmail.com"
           target="_blank"
           aria-label="gmail"
           rel="noreferrer"

@@ -31,13 +31,6 @@ const ProjectSectionOne = () => {
           <ProjectTitle>Fair Lanka</ProjectTitle>
           <ProjectLinks>
             <Icons
-              href="//github.com/abishek1718/Fair-Lanka-Redesign"
-              target="_blank"
-              aria-label="github"
-            >
-              <GithubOutline />
-            </Icons>
-            <Icons
               href="//fairlanka.info"
               target="_blank"
               aria-label="fairlanka"

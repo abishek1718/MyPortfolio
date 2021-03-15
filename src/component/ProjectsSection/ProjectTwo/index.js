@@ -29,7 +29,7 @@ const ProjectSectionTwo = () => {
           <ProjectTitle>Movie App - Database</ProjectTitle>
           <ProjectLinks>
             <Icons
-              href="//github.com/abishek1718/Fair-Lanka-Redesign"
+              href="//github.com/abishek1718/50-HTML-CSS-JS-Mini-Projects/tree/master/Project%2017"
               target="_blank"
               aria-label="github"
             >

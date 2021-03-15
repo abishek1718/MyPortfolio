@@ -133,7 +133,6 @@ export const HeroP = styled.p`
   color: #fff;
 `;
 
-
 export const Files = styled.div`
   font-size: 1.2rem;
   display: flex;
@@ -166,7 +165,7 @@ export const SocialLinkWrapper = styled.div`
   position: fixed;
   justify-content: space-evenly;
 
-  @media screen and (max-width: 396px) {
+  @media screen and (max-width: 968px) {
     display: none;
   }
 `;
