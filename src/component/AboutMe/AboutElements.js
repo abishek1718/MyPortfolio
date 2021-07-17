@@ -16,8 +16,6 @@ export const AboutContainer = styled.div`
   position: relative;
   top: 25%;
   color: #fff;
-  border-top: 1px solid #777777;
-  border-bottom: 1px solid #777777;
   padding: 8px;
 
 `;
@@ -46,6 +44,7 @@ export const AboutP = styled.p`
 export const AboutSkillsTitle = styled.h3`
   color: #ccd6f6;
   width:280px;
+  padding-top: 95px;
 `;
 
 export const AboutSkills = styled.ul`

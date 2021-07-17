@@ -143,16 +143,14 @@ export const Files = styled.div`
 export const File = styled.a`
   text-decoration: none;
   color: #00ffff;
-  border: 1.5px solid #fff;
-  padding: 15px;
   border-radius: 7px;
   transition: 0.2s;
   &:hover {
-    border: none;
+    color: #ffffff;
   }
 
   @media screen and (max-width: 396px) {
-    padding: 8px;
+    padding: 3px;
   }
 `;
 
@@ -166,7 +164,7 @@ export const SocialLinkWrapper = styled.div`
   justify-content: space-evenly;
 
   @media screen and (max-width: 968px) {
-    display: none;
+   display:none;
   }
 `;
 

@@ -15,8 +15,8 @@ const About = () => {
         <AboutTitle>About Me</AboutTitle>
         <AboutP>
           Hello! I'm Abishek. Nice to meet you.<br></br> A Web Developer based
-          in Columbus, OH. I'll be graduating from Franklin University with a
-          Bachelors in Web Development this may. My goal is to show my Web
+          in Columbus, OH. I recently graduated from Franklin University with a
+          Bachelors in Web Development. My goal is to show my Web
           Development skills in a respective company & build things that make
           sense and provide meaningful solutions.
           <br></br>
