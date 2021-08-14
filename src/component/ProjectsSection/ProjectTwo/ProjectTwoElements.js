@@ -146,7 +146,7 @@ export const ProjectTools = styled.div`
   li {
     display: inline;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
   }
 
   @media screen and (max-width: 600px) {

@@ -36,7 +36,7 @@ const About = () => {
           <ul>
             <li>Git & Github</li>
             <li>Command line</li>
-            <li>InDesign</li>
+            <li>Figma</li>
           </ul>
         </AboutSkills>
       </AboutContainer>

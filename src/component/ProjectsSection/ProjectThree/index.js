@@ -26,7 +26,7 @@ const ProjectSectionThree = () => {
             <Img src={img1} alt="img1"></Img>
           </ProjectImage>
           <ProjectLine>Featured Project</ProjectLine>
-          <ProjectTitle>Crypto Currency Tracker</ProjectTitle>
+          <ProjectTitle>Crypto Tracker</ProjectTitle>
           <ProjectLinks>
             <Icons
               href="//github.com/abishek1718/cryptocurrency-tracker-app"

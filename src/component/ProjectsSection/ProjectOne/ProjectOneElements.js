@@ -133,10 +133,6 @@ export const Icons = styled.a`
   margin-left: 50px;
   color: #fff;
 
-  &:hover:nth-child(1) {
-    cursor: not-allowed;
-  }
-
   @media screen and (max-width: 600px) {
     margin-right: 10px;
     margin-left: 10px;

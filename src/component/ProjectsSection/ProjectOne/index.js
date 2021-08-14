@@ -1,5 +1,4 @@
 import React from "react";
-import { GithubOutline } from "@styled-icons/evaicons-outline/GithubOutline";
 import { ExternalLink } from "@styled-icons/evaicons-solid/ExternalLink";
 
 import {
