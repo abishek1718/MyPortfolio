@@ -45,7 +45,7 @@ const HeroSection = () => {
       </HeroWrapper>
       <SocialLinkWrapper className="footer-btm">
         <SocialLinks
-          href="//www.linkedin.com/in/abishek1718/"
+          href="//www.linkedin.com/in/abishekkanageswaran/"
           target="_blank"
           aria-label="github"
           rel="noreferrer"
